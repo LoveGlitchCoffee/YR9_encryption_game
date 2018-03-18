@@ -49,7 +49,7 @@ def sequence1(YOUR_PROTOCOL, YOUR_IP_ADDRESS, YOUR_PORT,  DESTINAION_IP_ADDRESS,
    pressed = input("Press 'Enter' to continue")
 
    if bypass(YOUR_PROTOCOL, YOUR_IP_ADDRESS, YOUR_PORT,  DESTINAION_IP_ADDRESS, DESTINATION_PORT, THEIR_FIREWALL):
-      print("Firewall bypassed, password hint: U jxohp qeb pmlq, mxpptloa fp ___qbpqfkd")
+      print("Firewall bypassed, password hint: u jxohp qeb pmlq, mxpptloa fp ___qbpqfkd")
    else:
       print("Firewall reject, please try again")
       sys.exit()
@@ -65,5 +65,6 @@ def sequence3():
       p = input("Please type in the password: ")
       if p == x:
          print("You are in the system, well done, please report vulnerabilities")
+         correct = True
       else:
          print("incorrect password, Rejected")
